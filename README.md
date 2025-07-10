@@ -52,6 +52,12 @@ internal/gen/go/auth/v1/user.pb.go
 internal/gen/go/auth/v1/user_grpc.pb.go
 ```
 
+#### Install dependencies
+```bash
+go get google.golang.org/grpc
+go get github.com/gin-gonic/gin
+```
+
 #### Project structure
 ```
 grpc-auth/
